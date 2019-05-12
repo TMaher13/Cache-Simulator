@@ -1,5 +1,5 @@
 # Cache-Simulator
-A simulator for testing direct mapped, 2 and 4 way set associative, and fully associative cache systems
+A simulator for testing direct mapped, 2 and 4 way set associative, and fully associative cache systems. Simulation calculates number of hits and misses for a given .trace file input
 
 ## Files required for project
 
