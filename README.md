@@ -29,17 +29,9 @@ And then
 
 ## Reading Results
 
-1024 8 FA WB 0.91 1024 512 128
+Each line has the following syntax (all values except the last are in bytes):
 
-The above numbers represent the following:
-	1. Cache size (in bytes)
-	2. Block size (in bytes)
-	3. Mapping type (DM, 2W, 4W, and FA for direct-mapped, 2-way and 4-way set associative, and fully-associative caches respectively)
-	4. Write policy (WB, WT)
-	5. Hit rate (two decimal points)
-	6. Total bytes transferred from memory to the cache
-	7. Total bytes transferred from cache to memory
-	8. Number of blocks within each block set.
+[cache size] [block size] [cache type] [write policy] [hit rate] [memory to cache] [cache to memory] [blocks per set]
 
 
 	
