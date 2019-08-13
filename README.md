@@ -9,7 +9,7 @@ A simulator for testing direct mapped, 2 and 4 way set associative, and fully as
 
 ## Compiler and OS environment
 
-My project was build on a Windows machine with the Microsoft C++ Compiler (MSVC).
+My project was built on a Windows machine with the Microsoft C++ Compiler (MSVC).
 
 ## Compile and Run Instructions
 
@@ -29,7 +29,7 @@ And then
 
 ## Reading Results
 
-Each line has the following syntax (all values except the last are in bytes):
+Each line has the following syntax (memory sizes, chache to memory, and memory to cache are in bytes):
 
 [cache size] [block size] [cache type] [write policy] [hit rate] [memory to cache] [cache to memory] [blocks per set]
 
